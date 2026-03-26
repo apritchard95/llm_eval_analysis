@@ -1,0 +1,7 @@
+Metric,Banana 1024,Banana 1031,GPT-4o
+Instruction Following,1.46,1.63,1.53
+Truthfulness,1.62,1.61,1.71
+Writing Style,1.7,1.67,1.69
+Context Utilization,1.67,1.7,1.67
+Context Distraction,1.72,1.79,1.83
+Overall Quality,3.45,3.63,3.53
