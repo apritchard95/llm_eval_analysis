@@ -1,14 +1,12 @@
 # LLM Human Evaluation Analysis
 
-Two-stage analysis of human preference evaluation data comparing large language model outputs across a range of prompt types and evaluation settings. Completed as part of a professional AI evaluation and data annotation role.
+Two-stage analysis of human preference evaluation data comparing large language model outputs across a range of prompt types and evaluation settings.
 
 ## Overview
 
-### Stage 1 — Bard vs ChatGPT (`RLHF Evaluation Data Analysis - Bard v GPT/`)
+### Stage 1 — (`Evaluation Data Analysis - Bard v GPT/`)
 
-Analysis of a 1,003-record human preference evaluation dataset comparing Google Bard and ChatGPT across 13 prompt categories. Human evaluators rated each response pair on a 1–7 scale, where 1 = Bard much better and 7 = ChatGPT much better.
-
-**Prompt categories:** Coding, Creative Writing, Mathematical Reasoning, Summarization, Extraction, Classification, Open QA, Closed QA, Brainstorming, Rewriting, Poetry, Adversarial Harmfulness, Adversarial Dishonesty
+Analysis of a 1,003-record human preference evaluation dataset comparing Google Bard and ChatGPT across 13 prompt categories.
 
 **Key findings:**
 - ChatGPT was preferred overall across the majority of categories, with particularly strong performance in coding (71.7% preference), creative writing (73.7%), and poetry (83.5%)
@@ -16,13 +14,13 @@ Analysis of a 1,003-record human preference evaluation dataset comparing Google 
 - Adversarial Harmfulness showed the most evenly distributed preferences (32.9% Bard, 41.4% ChatGPT, 32.9% neutral), suggesting different refusal strategies with different evaluator reactions
 - Mathematical Reasoning showed the highest rate of neutral ratings, consistent with both models producing structurally similar step-by-step outputs
 
-**Deliverable:** Written analysis report with visualisations and category-level recommendations, delivered within a 3-day deadline. The client commissioned a follow-up project (Stage 2) based on the quality of this work.
+**Deliverable:** Written analysis report with visualisations and category-level recommendations.
 
 ---
 
-### Stage 2 — Multi-Model RLHF Evaluation (`RLHF Evaluation Data Analysis - RAG, Jailbreak, MT, LC/`)
+### Stage 2 — Multi-Model Evaluation
 
-Multi-axis evaluation of three LLMs across four specialised evaluation settings: Multi-Turn General conversation, Retrieval-Augmented Generation (RAG), Long Context comprehension, and Jailbreaking resistance. Model identities are anonymised per client requirements (referred to as Model A, Model B, and GPT-4o).
+Multi-axis evaluation of three LLMs across four specialised evaluation settings: Multi-Turn General conversation, Retrieval-Augmented Generation (RAG), Long Context comprehension, and Jailbreaking resistance.
 
 **Evaluation settings:**
 - **Multi-Turn General:** multi-turn conversational coherence and helpfulness
